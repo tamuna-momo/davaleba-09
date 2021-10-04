@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+body {
+	background-color: blue;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin:  0 auto;
+	grid-gap: 20px;
+	margin: 50px;
+	margin-bottom: 50px;
+
+
+}
+.box {
+	background-color: white;
+	text-align: center;
+}
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-auto-rows: 160px;
+    grid-template-areas: 
+	'aside search header header'
+	'aside article section article-one '
+	'ad navigation section article-two'
+	'subscribe navigation footer footer';
+	
+}
+.header-1 {
+	grid-area: search;
+}
+.header-2 {
+	grid-area: header;
+}
+.header-3 {
+	grid-area: header;
+}
+.sidebar-4 {
+	grid-area: aside;
+}
+.sidebar-5 {
+	grid-area: aside;
+}
+.ad-6 {
+	grid-area: ad;
+}
+.subscribe-7 {
+	grid-area: subscribe;
+}
+.article-8 {
+	grid-area: article;
+}
+.section-9 {
+	grid-area: section;
+}
+.section-10 {
+	grid-area: section;
+}
+.article-11 {
+	grid-area: article-one;
+}
+.article-12 {
+	grid-area: article-two;
+}
+.nav-13 {
+	grid-area: navigation;
+}
+.nav-14 {
+	grid-area: navigation;
+}
+.footer-15 {
+	grid-area: footer;
+}
+.footer-16 {
+grid-area:footer
+
+
+
+
+
+
+
+
